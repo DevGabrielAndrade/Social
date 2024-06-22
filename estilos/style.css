@@ -43,3 +43,23 @@ iframe#screen{
     height: 472px;
     
 }
+
+section#socials{
+    text-align: right;
+}
+
+section#socials img{
+    box-sizing: border-box;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.685);
+
+}
+
+section#socials img:hover{
+    border: 3.5px solid rgba(255, 255, 255, 0.637);
+    transform: scale(1.15);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+    transition: transform 0.7s ease, border 1s ease;
+}
